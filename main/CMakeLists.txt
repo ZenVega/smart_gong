@@ -4,6 +4,7 @@ idf_component_register(
 		"server/server.c"
 		"server/wifi_connection.c"
 		"events/events.c"
+		"controls/main.c"
 
     PRIV_REQUIRES
 		esp_http_server
@@ -11,6 +12,8 @@ idf_component_register(
 		esp_wifi
 		esp_https_server
 		nvs_flash
+		esp_driver_ledc
+		esp_driver_gpio
     INCLUDE_DIRS
 		"."
 )

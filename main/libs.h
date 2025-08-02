@@ -18,6 +18,7 @@
 #include <string.h> //for handling strings
 #include <sys/param.h>
 
+#include "driver/gpio.h"
 #include "esp_tls.h"
 #include "sdkconfig.h"
 #include <esp_https_server.h>

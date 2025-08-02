@@ -1,9 +1,11 @@
 #include "CONSTANTS.h"
+#include "controls/controls.h"
 #include "server/server.h"
 
 void app_main(void)
 {
 	nvs_flash_init(); // inits Non-volatile storage (NVS) - used to store wifi configs
+	init_onboard_led();
 	wifi_connection();
 	vTaskDelay(pdMS_TO_TICKS(5000));
 
