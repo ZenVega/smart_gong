@@ -1,23 +1,16 @@
 esp-idf/main/CMakeFiles/__idf_main.dir/gong.c.obj: \
  /home/zen_vega/mcu_projects/gong/main/gong.c \
- /home/zen_vega/mcu_projects/gong/main/CONSTANTS.h \
- /home/zen_vega/esp/esp-idf/components/esp_event/include/esp_event.h \
- /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_err.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
  /home/zen_vega/esp/esp-idf/components/newlib/platform_include/stdio.h \
  /home/zen_vega/mcu_projects/gong/build/config/sdkconfig.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
  /home/zen_vega/esp/esp-idf/components/newlib/platform_include/sys/reent.h \
@@ -32,9 +25,15 @@ esp-idf/main/CMakeFiles/__idf_main.dir/gong.c.obj: \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
- /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_compiler.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
  /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/zen_vega/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /home/zen_vega/esp/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
@@ -68,6 +67,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/gong.c.obj: \
  /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/zen_vega/esp/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
+ /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_err.h \
+ /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_compiler.h \
  /home/zen_vega/esp/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /home/zen_vega/esp/esp-idf/components/esp_system/include/esp_private/crosscore_int.h \
  /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_macros.h \
@@ -104,7 +105,22 @@ esp-idf/main/CMakeFiles/__idf_main.dir/gong.c.obj: \
  /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
  /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
  /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
+ /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi.h \
+ /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_types.h \
+ /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_types_generic.h \
  /home/zen_vega/esp/esp-idf/components/esp_event/include/esp_event_base.h \
+ /home/zen_vega/esp/esp-idf/components/esp_hw_support/include/esp_interface.h \
+ /home/zen_vega/esp/esp-idf/components/esp_wifi/include/local/esp_wifi_types_native.h \
+ /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_types_generic.h \
+ /home/zen_vega/esp/esp-idf/components/esp_event/include/esp_event.h \
+ /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_crypto_types.h \
+ /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_default.h \
+ /home/zen_vega/esp/esp-idf/components/esp_netif/include/esp_netif.h \
+ /home/zen_vega/esp/esp-idf/components/esp_netif/include/esp_netif_ip_addr.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
+ /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
+ /home/zen_vega/esp/esp-idf/components/esp_netif/include/esp_netif_types.h \
+ /home/zen_vega/esp/esp-idf/components/esp_netif/include/esp_netif_defaults.h \
  /home/zen_vega/esp/esp-idf/components/log/include/esp_log.h \
  /home/zen_vega/esp/esp-idf/components/log/include/esp_log_config.h \
  /home/zen_vega/esp/esp-idf/components/log/include/esp_log_level.h \
@@ -114,25 +130,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/gong.c.obj: \
  /home/zen_vega/esp/esp-idf/components/log/include/esp_log_write.h \
  /home/zen_vega/esp/esp-idf/components/log/include/esp_log_format.h \
  /home/zen_vega/esp/esp-idf/components/log/include/esp_log_args.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h \
  /home/zen_vega/esp/esp-idf/components/log/include/esp_log_attr.h \
  /home/zen_vega/esp/esp-idf/components/log/include/esp_private/log_attr.h \
- /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi.h \
- /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_types.h \
- /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_types_generic.h \
- /home/zen_vega/esp/esp-idf/components/esp_hw_support/include/esp_interface.h \
- /home/zen_vega/esp/esp-idf/components/esp_wifi/include/local/esp_wifi_types_native.h \
- /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_types_generic.h \
- /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_crypto_types.h \
- /home/zen_vega/esp/esp-idf/components/esp_wifi/include/esp_wifi_default.h \
- /home/zen_vega/esp/esp-idf/components/esp_netif/include/esp_netif.h \
- /home/zen_vega/esp/esp-idf/components/esp_netif/include/esp_netif_ip_addr.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/endian.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_endian.h \
- /home/zen_vega/esp/esp-idf/components/esp_netif/include/esp_netif_types.h \
- /home/zen_vega/esp/esp-idf/components/esp_netif/include/esp_netif_defaults.h \
  /home/zen_vega/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /home/zen_vega/esp/esp-idf/components/nvs_flash/include/nvs.h \
  /home/zen_vega/esp/esp-idf/components/esp_partition/include/esp_partition.h \

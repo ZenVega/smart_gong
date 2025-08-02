@@ -39,7 +39,8 @@ static void wifi_event_handler(void *event_handler_arg, esp_event_base_t event_b
 		}
 		case IP_EVENT_STA_GOT_IP:
 		{
-			printf("WIFI GOT IP\n");
+			ip_event_got_ip_t* event = (ip_event_got_ip_t*) event_data;
+    		printf("WIFI GOT IP: " IPSTR "\n", IP2STR(&event->ip_info.ip));
 			break;
 		}
 		default:
@@ -64,4 +65,15 @@ void wifi_connection(void)
 			.password = CONFIG_WIFI_PASSWORD
 		}
 	};
+    printf( "wifi_init_softap finished. SSID:%s  password:%s, (len: %d)",CONFIG_WIFI_SSID,CONFIG_WIFI_PASSWORD, (int)strlen(CONFIG_WIFI_PASSWORD));
+	esp_wifi_set_config(ESP_IF_WIFI_STA, &wifi_config);
+	esp_wifi_start(); //build wifi engine with configs
+	esp_wifi_set_mode(WIFI_MODE_STA); //use station mode
+	esp_wifi_connect(); //connect with ssid and pw
+}
+
+void app_main(void)
+{
+	nvs_flash_init(); //inits Non-volatile storage (NVS) - used to store wifi configs
+	wifi_connection();
 }

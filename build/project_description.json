@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "gong",
-    "project_version":    "1",
+    "project_version":    "6d0c926-dirty",
     "project_path":       "/home/zen_vega/mcu_projects/gong",
     "idf_path":           "/home/zen_vega/esp/esp-idf",
     "build_dir":          "/home/zen_vega/mcu_projects/gong/build",
