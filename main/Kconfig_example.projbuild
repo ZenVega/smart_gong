@@ -5,3 +5,15 @@ config WIFI_SSID
 config WIFI_PASSWORD
     string "WiFi Password"
     default "YourPassword"
+
+config WIFI_STATIC_IP
+	string "Static IP Address"
+    default "ipv4 addr of your host"
+
+config WIFI_GATEWAY
+	string "Static IP Address"
+    default "ipv4 addr of your router"
+
+config WIFI_SN_MASK
+	string "Static IP Address"
+    default "your netmask"
