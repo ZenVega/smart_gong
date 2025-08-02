@@ -1,0 +1,4 @@
+Command: make -j 18 all
+/home/zen_vega/mcu_projects/gong/main/gong.c:12:20: warning: 'TAG' defined but not used [-Wunused-variable]
+   12 | static const char *TAG = "webserver";
+      |                    ^~~

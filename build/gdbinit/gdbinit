@@ -1,0 +1,2 @@
+source /home/zen_vega/mcu_projects/gong/build/gdbinit/symbols
+source /home/zen_vega/mcu_projects/gong/build/gdbinit/connect

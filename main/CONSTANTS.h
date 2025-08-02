@@ -1,0 +1,10 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+#define WIFI_SSID CONFIG_WIFI_SSID
+#define WIFI_PASS CONFIG_WIFI_PASSWORD
+#define MAX_RETRY 10
+
+#define LED_GPIO GPIO_NUM_2
+
+#endif
