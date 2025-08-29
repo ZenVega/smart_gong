@@ -11,6 +11,13 @@ For further info see it's [documentation] (https://docs.espressif.com/projects/e
 
 follow these [instructions] (https://components.espressif.com/components/joltwallet/littlefs)
 
+## Setup
+
+In '/main' rename or copy 'Kconfig_example.projbuild' to 'Kconfig.projbuild' and fill in your credentials.
+
+use idf.py to build/ flash and monitor (s.o. Makefile) your ESP32
+when successfull, your GUI will be reachable at the IP-Address you entered in WIFI_STATIC_IP
+
 ## Hardware
 RGB LED Strip Control:
 
