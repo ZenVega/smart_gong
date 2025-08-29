@@ -4,6 +4,7 @@ idf_component_register(
 		"server/server.c"
 		"server/wifi_connection.c"
 		"events/events.c"
+		"littlefs/littlefs.c"
 		"controls/main.c"
 
     PRIV_REQUIRES
@@ -14,6 +15,11 @@ idf_component_register(
 		nvs_flash
 		esp_driver_ledc
 		esp_driver_gpio
+		vfs
+    REQUIRES
+		littlefs
     INCLUDE_DIRS
 		"."
 )
+
+littlefs_create_partition_image(storage ../partition FLASH_IN_PROJECT)
