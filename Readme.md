@@ -1,3 +1,12 @@
+# This is the software for an ESP32 controlled smart gong
+It spins up it's own server with a GUI to control background lights as well as different solenoids 
+for the percussion parts
+It will include a countdown, certain melodies and an API to connect it do other smart devices
+
+## Codebase
+This project is implemented using the ESP-idf.
+For further info see it's [documentation] (https://docs.espressif.com/projects/esp-idf/en/v5.0/esp32/index.html)
+
 ## Init and configure littleFS
 
 follow these [instructions] (https://components.espressif.com/components/joltwallet/littlefs)
